@@ -1,0 +1,35 @@
+  
+.footer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px 30px;
+    text-align: left;
+    padding-top: 130px;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right:120px ;
+    background-color: rgba(4, 1, 14, 0.856);
+    color: rgb(224, 233, 235);
+    margin-top: 100px;
+    font-family: cursive;
+}
+.icon-style{
+    color:rgb(60, 60, 228)
+
+}
+.head{
+    padding-bottom: 30px;
+}
+.copyright{
+    text-align: center;
+    color: rgba(174, 233, 233, 0.699);
+    background-color: rgba(1, 2, 20, 0.76);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+@media only screen and (max-width:688px){
+    .footer-container{
+        grid-template-columns: repeat(1,1fr);
+         
+    }
+}

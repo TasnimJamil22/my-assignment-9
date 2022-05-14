@@ -1,0 +1,38 @@
+.category-container{
+    background-color: rgba(180, 149, 136, 0.602);
+    
+    border-radius: 10px;
+    margin: 0 auto;
+    width:90%;
+    /* height:200px; */
+    padding-top: 15px;
+    padding-bottom:20px;
+    color: rgb(5, 5, 5);
+     
+
+}
+.category-container:hover{
+    background-color: rgba(68, 12, 12, 0.568);
+    color:rgb(255, 250, 252);
+     
+     
+}
+.category-container img{
+    /* padding-top: 30px; */
+    width:100px;
+    border-radius:50%;
+    
+}
+.btn-category{
+    background-color: rgba(2, 1, 1, 0.589);
+    color:white;
+    padding:10px 15px;
+    border-radius: 6px;
+    border:1px solid white;
+}
+.btn-category:hover{
+    background-color: rgba(236, 162, 78, 0.931);
+}
+@media only screen and (max-width:688px){
+    
+}

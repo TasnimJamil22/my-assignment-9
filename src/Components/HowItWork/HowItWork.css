@@ -1,0 +1,13 @@
+.howItWork-img img{
+    width:100px;
+    border-radius: 50%;
+}
+.div{
+    /* background-color: black; */
+}
+.container{
+    /* background-color: rgba(32, 30, 29, 0.63); */
+    padding:10px;
+    border-radius: 5px;
+    margin:0 auto;
+}

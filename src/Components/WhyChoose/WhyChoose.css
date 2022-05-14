@@ -1,0 +1,14 @@
+.whyChoose-img img{
+    width:100px;
+    border-radius: 50%;
+}
+.whyChoose-container{
+    background-color: aliceblue;
+    padding:50px;
+    border-radius: 10px;
+    margin:0 auto;
+}
+.whyChoose-container:hover{
+    background-color: rgba(55, 178, 182, 0.664);
+    color: white;
+}

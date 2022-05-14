@@ -1,0 +1,25 @@
+.categories-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:45px  5px;
+    /* height:450px; */
+   
+}
+.main-div{
+    background-color:rgb(255, 250, 240);
+    padding-top:200px;
+    padding-bottom: 200px;
+}
+.main-div h1{
+    padding-bottom:70px;
+    color:rgba(24, 85, 90, 0.801)
+}
+@media only screen and (max-width:688px){
+    .categories-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .main-div{
+        width:100%;
+    }
+    
+}

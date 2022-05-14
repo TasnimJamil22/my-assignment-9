@@ -1,0 +1,16 @@
+ .team-img img{
+    width:100px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+.team-container{
+    background-color: rgb(147, 174, 233);
+    border-radius: 10px;
+    height:300px;
+    color: white;
+    width:80%;
+}
+.team-container:hover{
+    background-color:rgba(178, 208, 246, 0.589); 
+    color:rgb(62, 44, 226);
+}

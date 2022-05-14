@@ -1,0 +1,25 @@
+.faq-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px 30px;
+    padding-top: 100px;
+}
+.faq-div img{
+    width:100%;
+    border-radius: 20px;
+}
+.faq-container{
+    background-color: rgba(0, 0, 255, 0.027);
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+.faq-container h1{
+    padding-top: 70px;
+}
+@media only screen and (max-width:688px){
+    .faq-div{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
